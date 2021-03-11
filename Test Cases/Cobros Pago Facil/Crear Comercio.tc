@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Crear Comercio</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d803ee00-b08d-4cb9-926f-1692719e69d3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bac180ef-13aa-4d36-8508-b058dfce6290</id>
+      <masked>false</masked>
+      <name>Select_Ecomerce</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f28115bd-6742-4272-a0e3-d18db606472b</id>
+      <masked>false</masked>
+      <name>Nombre_Ecomerce</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8e474386-e6d2-47e0-a352-c14be6eeeee5</id>
+      <masked>false</masked>
+      <name>Link_Ecomerce</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f94d276c-3efc-40eb-8045-7151f88f4797</id>
+      <masked>false</masked>
+      <name>Texto_Comerce</name>
+   </variable>
+</TestCaseEntity>

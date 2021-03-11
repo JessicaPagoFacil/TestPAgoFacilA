@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cobro Estado Completado</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c34aa4c3-9e40-4845-abc5-92d5ccd071d1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>47e07ea5-85c4-4b51-8c15-50912e967d59</id>
+      <masked>false</masked>
+      <name>NTarjeta</name>
+   </variable>
+</TestCaseEntity>
