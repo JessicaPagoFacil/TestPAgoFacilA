@@ -12,4 +12,18 @@
       <masked>false</masked>
       <name>NTarjeta</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7653034a-ce9d-4a30-9f7a-84c2a3adce3c</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27717b0d-ffb6-4bb6-92ee-749646a7f2fd</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
 </TestCaseEntity>

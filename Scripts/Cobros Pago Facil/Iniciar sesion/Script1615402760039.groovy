@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pag
     User)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/input_Contrasea_LoginFormpassword (1)'), 
-    'R2dZ4hvJ2ugbxLgaHgFasA==')
+    Pass)
 
 WebUI.click(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/button_Entrar'))
 

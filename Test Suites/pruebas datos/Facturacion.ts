@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>6dcfd383-163a-4522-8716-bb8758a2105f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Cobros Pago Facil/Facturacion</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -83,7 +83,7 @@
    <testCaseLink>
       <guid>49b2f0ac-7c1f-4dfe-95f8-f7dfa28d730e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Cobros Pago Facil/Crear Comercio</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>c69fb67f-8a70-497c-93ea-9ae9b0e1bce8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Cobros Pago Facil/Iniciar sesion</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -138,6 +138,12 @@
          <type>DATA_COLUMN</type>
          <value>user</value>
          <variableId>967fded1-5b65-40b3-aa88-f2564887d83e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ca9f21d4-b7eb-4ee7-8608-4441ead6e76a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pass</value>
+         <variableId>5f507302-a4dd-47df-b214-786aeda64352</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -159,6 +165,18 @@
          <type>DATA_COLUMN</type>
          <value>Tarjeta de credito</value>
          <variableId>47e07ea5-85c4-4b51-8c15-50912e967d59</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>User</value>
+         <variableId>7653034a-ce9d-4a30-9f7a-84c2a3adce3c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>27717b0d-ffb6-4bb6-92ee-749646a7f2fd</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

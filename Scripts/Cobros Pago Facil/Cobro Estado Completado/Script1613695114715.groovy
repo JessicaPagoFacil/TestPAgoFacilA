@@ -22,10 +22,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://dashboard.craft.pagofacil.cl/site/login')
 
 WebUI.setText(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/input_Correo_LoginFormusername (1)'), 
-    'jessicamaritor1993+1@gmail.com')
+    User)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/input_Contrasea_LoginFormpassword (1)'), 
-    'R2dZ4hvJ2ugbxLgaHgFasA==')
+    Pass)
 
 WebUI.click(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/button_Entrar'))
 
