@@ -22,10 +22,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://dashboard.craft.pagofacil.cl/site/login')
 
 WebUI.setText(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/input_Correo_LoginFormusername (9)'), 
-    'jessicamaritor1993+1@gmail.com')
+    User)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/input_Contrasea_LoginFormpassword (9)'), 
-    'R2dZ4hvJ2ugbxLgaHgFasA==')
+    Pass)
 
 WebUI.click(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/button_Entrar (7)'))
 
@@ -36,8 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/select_SIN ECOMMERCE (MANUAL)WOOCOMMERCESHO_bcc662 (4)'), 
     Select_Ecomerce, true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/input_Nombre Comercio_ServiciosTbknombreComercio (5)'), 
-    Nombre_Ecomerce)
+WebUI.setText(findTestObject('Page_Pago Fcil - Pasarela de Pagos/input_Nombre Comercio_ServiciosTbknombreComercio'), Nombre_Ecomerce)
 
 WebUI.click(findTestObject('Object Repository/Page_Pago Fcil - Pasarela de Pagos/div_Url ServicioEs importante que la url es_a656e8'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='serviciostbk-nombrecomercio']</value>
+         <value>/html/body/div[1]/div/div/div/form/div[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='serviciostbk-nombrecomercio']</value>
+      <value>/html/body/div[1]/div/div/div/form/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -12,6 +12,117 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ffe2dba6-e0af-4923-a950-e3fddeedc8a4</testSuiteGuid>
    <testCaseLink>
+      <guid>c69fb67f-8a70-497c-93ea-9ae9b0e1bce8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Cobros Pago Facil/Iniciar sesion</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ca9f21d4-b7eb-4ee7-8608-4441ead6e76a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/user</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ca9f21d4-b7eb-4ee7-8608-4441ead6e76a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>967fded1-5b65-40b3-aa88-f2564887d83e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ca9f21d4-b7eb-4ee7-8608-4441ead6e76a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pass</value>
+         <variableId>5f507302-a4dd-47df-b214-786aeda64352</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49b2f0ac-7c1f-4dfe-95f8-f7dfa28d730e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Cobros Pago Facil/Crear Comercio</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Ecomerce</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Select_Ecomerce</value>
+         <variableId>bac180ef-13aa-4d36-8508-b058dfce6290</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nombre_Ecomerce</value>
+         <variableId>f28115bd-6742-4272-a0e3-d18db606472b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Link_Ecomerce</value>
+         <variableId>8e474386-e6d2-47e0-a352-c14be6eeeee5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Texto_Comerce</value>
+         <variableId>f94d276c-3efc-40eb-8045-7151f88f4797</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>User </value>
+         <variableId>6263fc02-fdf8-44ac-920e-6b8242d4b089</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pass</value>
+         <variableId>93535899-2c35-43be-89de-6ebe3723d512</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0a7f4a64-5d2c-4e1c-8ef8-d6e2e3aa3607</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Cobros Pago Facil/Cobro Estado Completado</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Cobros</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Tarjeta de credito</value>
+         <variableId>47e07ea5-85c4-4b51-8c15-50912e967d59</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>User</value>
+         <variableId>7653034a-ce9d-4a30-9f7a-84c2a3adce3c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>27717b0d-ffb6-4bb6-92ee-749646a7f2fd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6dcfd383-163a-4522-8716-bb8758a2105f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -79,104 +190,71 @@
          <value>Tipo_de_factura </value>
          <variableId>e29ca8fe-0253-49ce-a426-28405445a0a4</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>49b2f0ac-7c1f-4dfe-95f8-f7dfa28d730e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Cobros Pago Facil/Crear Comercio</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Ecomerce</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Select_Ecomerce</value>
-         <variableId>bac180ef-13aa-4d36-8508-b058dfce6290</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Nombre_Ecomerce</value>
-         <variableId>f28115bd-6742-4272-a0e3-d18db606472b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Link_Ecomerce</value>
-         <variableId>8e474386-e6d2-47e0-a352-c14be6eeeee5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>12877f57-6d4f-43bd-b1ad-fd4cd40e53d2</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Texto_Comerce</value>
-         <variableId>f94d276c-3efc-40eb-8045-7151f88f4797</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c69fb67f-8a70-497c-93ea-9ae9b0e1bce8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Cobros Pago Facil/Iniciar sesion</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>ca9f21d4-b7eb-4ee7-8608-4441ead6e76a</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/user</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>ca9f21d4-b7eb-4ee7-8608-4441ead6e76a</testDataLinkId>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>user</value>
-         <variableId>967fded1-5b65-40b3-aa88-f2564887d83e</variableId>
+         <variableId>9f80dddd-6aa2-44d1-905e-89fc53d3a4c2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ca9f21d4-b7eb-4ee7-8608-4441ead6e76a</testDataLinkId>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Pass</value>
-         <variableId>5f507302-a4dd-47df-b214-786aeda64352</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0a7f4a64-5d2c-4e1c-8ef8-d6e2e3aa3607</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Cobros Pago Facil/Cobro Estado Completado</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Cobros</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Tarjeta de credito</value>
-         <variableId>47e07ea5-85c4-4b51-8c15-50912e967d59</variableId>
+         <variableId>5bc0646d-ac86-4fb8-8cad-4dff12a505dc</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</testDataLinkId>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>User</value>
-         <variableId>7653034a-ce9d-4a30-9f7a-84c2a3adce3c</variableId>
+         <value>Transbank</value>
+         <variableId>e52e81e9-7466-488d-ac5b-de0c6ff56f8c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>bc29fe7a-0e8c-4a9e-ad40-7c533c14c26a</testDataLinkId>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>pass</value>
-         <variableId>27717b0d-ffb6-4bb6-92ee-749646a7f2fd</variableId>
+         <value>PassTransbank</value>
+         <variableId>4acc14e7-ba7a-4f9f-9829-c89907008d03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Texto en monto </value>
+         <variableId>46eaa448-e690-4dba-90bd-c9b75e7345f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TextNotaInterna2</value>
+         <variableId>98ba8613-096a-4583-8015-016b3ce60910</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TextNotaInterna2</value>
+         <variableId>82cc7be4-2a69-4c40-bb8e-47d4df8c737f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Numero de tarjeta </value>
+         <variableId>cd6f45fd-a705-485d-be43-04ddff9c72d6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Correo de un Monto </value>
+         <variableId>51035cec-ed61-4aed-990c-a28d05992937</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CantidadProductos</value>
+         <variableId>b96ebcf1-5836-4962-8246-64c30c526d85</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>edcb9fc6-203b-4ef0-b292-e2016f98e962</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Codigo_Sucursal</value>
+         <variableId>8fc1209a-4c3d-4c2e-8d5a-88699027db24</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

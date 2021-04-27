@@ -33,4 +33,18 @@
       <masked>false</masked>
       <name>Texto_Comerce</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6263fc02-fdf8-44ac-920e-6b8242d4b089</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>93535899-2c35-43be-89de-6ebe3723d512</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
 </TestCaseEntity>
