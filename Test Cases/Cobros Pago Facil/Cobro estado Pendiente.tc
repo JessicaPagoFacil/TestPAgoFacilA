@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Realizar un caso de prueba donde se genere un cobro que se quede en estado pendiente</description>
-   <name>Cobro estado Pendiente</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8671f6a9-9aab-4661-bfb1-444bb2eda443</testCaseGuid>
-</TestCaseEntity>
